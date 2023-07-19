@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>switch문2</title>
+    <style>
+      body {
+        background-color: #0c3268;
+        color: rgb(243, 243, 243);
+      }
+
+      p {
+        margin-top: 80px;
+        font-size: 2em;
+        font-weight: 700;
+        text-align: center;
+        text-shadow: 1px 2px 1px #000;
+      }
+
+      p strong {
+        font-size: 2.2em;
+        color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      var session = prompt("월을 입력해 주세요. 1-12 ");
+      switch (session) {
+        case "3":
+        case "4":
+        case "5":
+          document.write("<p>입력한 월은 <strong>봄 </strong>입니다.");
+          break;
+        case "6":
+        case "7":
+        case "8":
+          document.write("<p>입력한 월은 <strong>여름 </strong>입니다.");
+          break;
+        case "9":
+        case "10":
+        case "11":
+          document.write("<p>입력한 월은 <strong>가을 </strong>입니다.");
+          break;
+        case "12":
+        case "1":
+        case "2":
+          document.write("<p>입력한 월은 <strong>겨울 </strong>입니다.");
+          break;
+        default:
+          alert("잘못 입력했습니다.");
+      }
+    </script>
+  </body>
+</html>

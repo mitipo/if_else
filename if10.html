@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>switch문3</title>
+    <style>
+      body {
+        background-color: #0c3268;
+        color: rgb(243, 243, 243);
+      }
+
+      p {
+        margin-top: 80px;
+        font-size: 2em;
+        font-weight: 700;
+        text-align: center;
+        text-shadow: 1px 2px 1px #000;
+      }
+
+      p strong {
+        font-size: 2.2em;
+        color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      var letter = prompt("알파벳을 입력해 주세요. A-Z ");
+      switch (letter.toLowerCase()) {
+        case "a":
+          document.write("<p>입력한 알파벳은 <strong>Ant </strong>입니다.");
+          break;
+        case "b":
+          document.write("<p>입력한 알파벳은 <strong>Bug </strong>입니다.");
+          break;
+        case "c":
+          document.write("<p>입력한 알파벳은 <strong>Cat </strong>입니다.");
+          break;
+        case "D":
+          document.write("<p>입력한 알파벳은 <strong>Dragon </strong>입니다.");
+          break;
+        case "e":
+          document.write("<p>입력한 알파벳은 <strong>Eagle </strong>입니다.");
+          break;
+        case "f":
+          document.write("<p>입력한 알파벳은 <strong>Frog </strong>입니다.");
+          break;
+        case "g":
+          document.write("<p>입력한 알파벳은 <strong>Giraffe </strong>입니다.");
+          break;
+        case "h":
+          document.write("<p>입력한 알파벳은 <strong>Horse </strong>입니다.");
+          break;
+        default:
+        case "i":
+          document.write("<p>입력한 알파벳은 <strong>Iguana </strong>입니다.");
+          break;
+        case "j":
+          document.write("<p>입력한 알파벳은 <strong>J </strong>입니다.");
+          break;
+          alert("잘못 입력했습니다.");
+      }
+    </script>
+  </body>
+</html>
